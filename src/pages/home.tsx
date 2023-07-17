@@ -18,6 +18,9 @@ export const Home = () => {
         <section className="bordered section4"></section>
         <section className="bordered section5"></section>
       </main>
+      <footer>
+        大屏数据平台利用大数据技术采集作案信息是一套实时监控的信息系统
+      </footer>
     </div>
   )
 }
