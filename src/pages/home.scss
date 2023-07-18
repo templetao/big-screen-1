@@ -50,6 +50,7 @@
       background: #0f113a;
 
       &::before {
+        pointer-events: none;
         content: '';
         left: 0;
         right: 0;
