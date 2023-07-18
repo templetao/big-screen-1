@@ -11,6 +11,7 @@ import {Chart7} from '../components/chart-7'
 import {Chart8} from '../components/chart-8'
 import {Chart9} from '../components/chart-9'
 import {Chart10} from '../components/chart-10'
+import {Chart11} from '../components/chart-11'
 
 export const Home = () => {
   return (
@@ -44,12 +45,12 @@ export const Home = () => {
             <h2>案发类型统计</h2>
             <div className="charts">
               <Chart10/>
+              <Chart11/>
             </div>
           </div>
           <div className="bordered row2 案发街道">
             <h2>案发街道统计</h2>
             <div className="charts">
-
             </div>
           </div>
           <div className="bordered row3 作案手段">
